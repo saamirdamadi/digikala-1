@@ -1,0 +1,83 @@
+/*.under__red__slider__out {
+  width: 100%;
+  height: 115px;
+  background-color: yellow;
+  margin-top: 12px;
+  .under__red__slider__in{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    margin: 0 auto;
+    border-radius: 15px;
+      .under__red__slider1{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        img{
+          width: 66px;
+          height: 62px;
+        }
+      }
+      .under__red__slider2{
+        display: flex;
+        background-color: #2b2b2b33;
+        align-items: center;
+        justify-self: center;
+        margin-right: 20px;
+      }
+      .under__red__slider3{
+        width: 115px;
+        height: 29px;
+        background-color: #2b2b2b77;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        margin-right: 20px;
+        background-color: green;
+        border-radius: 20px;
+      }
+      .under__red__slider4{
+        width: 87px;
+        height: 87px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        flex-flow: column wrap;
+        margin-right: 55px;
+        align-items: center;
+        justify-self: center;
+        img{
+          background-color: unset;
+          width: 58px;
+          height: 58px;
+          display: inline;
+          margin-right: 11px;
+          padding-top: 10px;
+          padding-left: 10px;
+        }
+        .under__image{
+          width: 45px;
+          height: fit-content;
+          margin-left: 30px;
+          font-size: 12px;
+          font-weight: 900;
+          padding: 1px 8px;
+          border-radius: 30px;
+          display: block;
+          margin-top: 10px;
+          color: white;
+          background-color: red;
+        }
+    }
+    .kala__200{
+    background-image: url(../images/under__red__slider/freshPattern.svg);
+    }
+}
+}

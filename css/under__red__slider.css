@@ -1,0 +1,27 @@
+.out__box1 {
+  width: 100%;
+  height: 275px;
+  .in__box1 {
+    width: 98%;
+    height: 100%;
+    margin: 20px auto;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box1__img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      gap: 2x;
+      margin-right: 5px;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+      }
+    }
+  }
+}

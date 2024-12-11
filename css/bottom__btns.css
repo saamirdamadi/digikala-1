@@ -1,0 +1,50 @@
+a{
+  z-index: 999999999;
+.botoom__btns {
+  width: 100%;
+  height: auto;
+  z-index: 999999999;
+  .right {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    z-index: 999999999;
+    background-color: #ef4056;
+    position: fixed;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: antiquewhite;
+    }
+  }
+  .left {
+    width: 143px;
+    height: 60px;
+    background-color: green;
+    border-radius: 40px;
+    z-index: 999999999;
+    position: fixed;
+    left: 25px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    bottom: 40px;
+      svg{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 4px;
+        fill: antiquewhite;
+      }
+    p {
+        margin-right: 7px;
+        font-size: large;
+        color: whitesmoke;
+    }
+  }
+}
+}

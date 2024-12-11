@@ -1,0 +1,14 @@
+.out__box10 {
+  width: 100%;
+  height: 205px;
+  .in__box10 {
+    width: 98%;
+    height: 100%;
+    margin: 20px auto;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+    }
+  }
+}

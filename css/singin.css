@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: yekan for digikala;
+}
+@font-face {
+  font-family: yekan for digikala;
+  src: url(../fonts/IRANYekanWeb-Bold.eot);
+  src: url(../fonts/IRANYekanWeb-Bold.ttf);
+  src: url(../fonts/IRANYekanWeb-Bold.woff);
+  src: url(../fonts/IRANYekanWeb-Bold.woff2);
+}
+.singin__page {
+  width: 450px;
+  height: 550px;
+  border: 1px solid #dcdce2;
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 20px;
+  margin: 140px auto;
+  .logo__singin__page {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 120px;
+      height: 80px;
+    }
+  }
+  .btn__singin {
+    width: 420px;
+    height: 20px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    p {
+      text-align: right;
+      color: #0c0c0c;
+      text-decoration: none;
+      font-size: 19px;
+      display: flex;
+      direction: rtl;
+      gap: 10px;
+      align-items: center;
+      font-weight: 700;
+      .login__btns__line {
+        width: 3px;
+        height: 20px;
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 24px;
+        background-color: #000;
+        display: inline-block;
+      }
+    }
+  }
+  .p2 {
+    font-size: 12px;
+    color: #3f4064;
+    margin-top: 50px;
+    margin-right: 15px;
+  }
+  .input__singin {
+    width: 100%;
+    height: 50px;
+    input {
+      width: 370px;
+      height: 100%;
+      border: 1px solid #9b9b9e;
+      border-radius: 8px;
+      margin-right: 15px;
+      margin-top: 25px;
+      color: #454b57;
+      padding: 8px;
+      font-size: 18px;
+    }
+  }
+  .input__singin__2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    .input__2 {
+      width: 370px;
+      height: 100%;
+      border-radius: 8px;
+      background-color: #E73F55;
+      margin-right: 15px;
+      margin-top: 25px;
+      color: white;
+      border: unset;
+      padding: 8px;
+      font-size: 18px;
+    }
+  }
+  .pp{
+    font-size: 13px;
+    margin: 50px auto;
+    color: #7C5F6F;
+    a{
+        text-decoration: none;
+        color: #67c4fa;
+    }
+  }
+}

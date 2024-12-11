@@ -1,0 +1,164 @@
+.red__slider__out {
+  width: 100%;
+  height: 310px;
+  .red__slider__in {
+    width: 98%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgb(225, 68, 99), crimson);
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    .swiper-slide {
+      &:nth-of-type(1) {
+        background-color: transparent;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        img {
+          width: 82px;
+          height: 82px;
+        }
+        a {
+          font-size: 12px;
+          color: white;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: white;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        border-radius: 0 8px 8px 0;
+      }
+      &:nth-last-of-type(1) {
+        border-radius: 8px 0 0 8px;
+      }
+      .red__slider__col {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 4px;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 6px;
+        img {
+          width: 132px;
+          height: 132px;
+          object-fit: contain;
+        }
+        .p {
+          width: 100%;
+          height: 35px;
+          display: flex;
+          right: 1px;
+          p {
+            font-size: 12px;
+            color: #62666d;
+            right: 1px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+          }
+        }
+        .down{
+          width: 100%;
+          height: 90px;
+          .up{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            .right{
+              width: 55px;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              span{
+                width: 34px;
+                height: 20px;
+                background-color: #e73f2f;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 12px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #f0f0f0;
+              }
+            }
+            .left{
+              width: calc(100% - 55px);
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              span{
+                font-size: 14px;
+                color: #3f4064;
+                font-weight: bold;
+                position: absolute;
+                left: 20px;
+              }
+              svg{
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                left: 3px;
+              }
+            }
+          }
+          .down__2{
+            width: 100%;
+            height: 40%;
+            font-size: 12px;
+            position: absolute;
+            padding-right: 80px;
+            text-decoration: line-through;
+            color: #c0c2c5;
+            top: 220px;
+          }
+        }
+      }
+      a{
+        text-decoration: none;
+      .ppss{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+      .svg{
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        border: 1px solid #5fc0dc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg{
+          width: 32px;
+          height: 32px;
+          fill: #5fc0dc;
+          border-radius: 50%;
+        }
+      }
+      p{
+        font-size: 14px;
+        color: #3f4064;
+      }
+  }
+}
+}
+}
+}

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: yekan for digikala, b homa;
+}
+@font-face {
+  font-family: yekan for digikala;
+  src: url(../fonts/IRANYekanWeb-Bold.eot);
+  src: url(../fonts/IRANYekanWeb-Bold.ttf);
+  src: url(../fonts/IRANYekanWeb-Bold.woff);
+  src: url(../fonts/IRANYekanWeb-Bold.woff2);
+}
+@font-face{
+  font-family: b homa;
+  src: url(../fonts/transfonter.org-20241205-112155/BHoma.eot);
+  src: url(../fonts/transfonter.org-20241205-112155/BHoma.ttf);
+  src: url(../fonts/transfonter.org-20241205-112155/BHoma.woff);
+  src: url(../fonts/transfonter.org-20241205-112155/BHoma.woff2);
+}
