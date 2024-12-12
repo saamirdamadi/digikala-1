@@ -1,6 +1,6 @@
 .footer__out {
   width: 100%;
-  height: 1215px;
+  height: auto;
   .footer__in {
     width: 98%;
     height: 100%;
@@ -147,14 +147,14 @@
           border-radius: 12px;
           padding: 0px 8px;
           border: unset;
-          &:active {
-            border: unset;
+          &:checked {
+            border: none;
           }
         }
         .input__2{
           width: 55px;
           height: 50px;
-          background-color: #E73F55;
+          background-color: #E0E0E2;
           color: white;
           font-size: 14px;
         }
@@ -293,8 +293,6 @@
   .footer__item7{
     width: 100%;
     height: 80px;
-    margin-top: -230px;
-    top: 10px;
     .footer__item7__1{
       width: 100%;
       height: 100%;
