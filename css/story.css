@@ -17,9 +17,7 @@
         img {
           width: 74px;
           height: 74px;
-          border-radius: 50%;
-          outline: 2px solid purple;
-          outline-offset: 3px;
+          border-radius: 50%;	
         }
       }
       .story__text {
